@@ -4,14 +4,10 @@ import link from '../assets/linkedin.PNG';
 import pharm from '../assets/pharmeasy.png';
 import yt from '../assets/youtube.png';
 import fm from '../assets/foodmood.PNG';
-import {Flex, Icon} from '@chakra-ui/react'
-import {IconButton,Button} from '@chakra-ui/button'
 import {FaGithub,FaEye} from 'react-icons/fa'
-import { useColorMode} from '@chakra-ui/color-mode';
 
 const Projects = () => {
-  const { colorMode, toggleColorMode } = useColorMode()
-    const isDark = colorMode === 'dark';
+  
   return (
     <div name="projects" className="w-full md:h-[1100px] bg-[#fff] text-gray-300 ">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-4/5 h-full">

@@ -9,14 +9,11 @@ import MONGO from '../assets/mongo.png';
 import EX from '../assets/express.png';
 import NODE from '../assets/node.png';
 import TAILWIND from '../assets/tailwind.png';
-import TYPESCRIPT from '../assets/typescript.png';
 import REDUX from '../assets/redux.png';
 import MAT from '../assets/materialui.png';
-import { useColorMode} from '@chakra-ui/color-mode';
 
 const Skills = () => {
-    const { colorMode, toggleColorMode } = useColorMode()
-    const isDark = colorMode === 'dark';
+    
   return (
     <div name='skills' className='bg-pink-100 text-gray-900 text-sm w-full h-screen px-[80px] py-[20px]'>
     

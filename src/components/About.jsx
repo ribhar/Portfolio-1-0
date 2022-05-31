@@ -1,9 +1,7 @@
 import React from 'react'
-import { useColorMode} from '@chakra-ui/color-mode';
 
 const About = () => {
-  const { colorMode, toggleColorMode } = useColorMode()
-    const isDark = colorMode === 'dark';
+  
   return (
     
     

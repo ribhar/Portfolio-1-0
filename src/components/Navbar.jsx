@@ -4,14 +4,9 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/MLogo.png";
 import { Link } from "react-scroll";
-import { useColorMode} from '@chakra-ui/color-mode';
-import { IconButton} from '@chakra-ui/button';
-import {FaSun,FaMoon} from 'react-icons/fa'
 
 const Navbar = () => {
-  const { colorMode, toggleColorMode } = useColorMode()
-  const isDark = colorMode === 'dark';
-
+  
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
@@ -50,9 +45,7 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        {/* <li>
-          <IconButton size='s'  icon={isDark ? <FaSun/> : <FaMoon/>}  bg='none'  onClick={toggleColorMode}></IconButton>
-        </li> */}
+        
       </ul> 
 
       <div onClick={handleClick} className="md:hidden z-10">

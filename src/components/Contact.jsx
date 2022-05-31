@@ -1,9 +1,7 @@
 import React from 'react'
-import { useColorMode} from '@chakra-ui/color-mode';
 
 const Contact = () => {
-  const { colorMode, toggleColorMode } = useColorMode()
-  const isDark = colorMode === 'dark';
+  
   
   return (
     <div name='contact' className="w-full h-[800px] bg-pink-100 text-gray-300 flex justify-center items-center p-4">
