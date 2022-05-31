@@ -22,7 +22,7 @@ const Home = () => {
             <img src={Logo1} alt="" style={{width:"300px",borderRadius:"50%"}} />
         </div>
       </div>
-      <div className='flex sm:hidden absolute right-[55px] bottom-[10px]'>
+      <div className='flex sm:hidden absolute right-[55px] bottom-[-30px]'>
             <img src={Logo1} alt="" style={{width:"300px",borderRadius:"50%"}} />
       </div>
     </div>
