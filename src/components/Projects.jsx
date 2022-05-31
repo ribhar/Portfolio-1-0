@@ -9,7 +9,7 @@ import {FaGithub,FaEye} from 'react-icons/fa'
 const Projects = () => {
   
   return (
-    <div name="projects" className="w-full md:h-[1100px] bg-[#fff] text-gray-300 ">
+    <div name="projects" className="w-full h-[1200px] sm:h-[1100px] bg-[#fff] text-gray-300 ">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-4/5 h-full">
         
           <p className= 'mb-20 text-5xl font-bold w-[185px] border-b-4 border-[#DC143C] text-gray-900'>
