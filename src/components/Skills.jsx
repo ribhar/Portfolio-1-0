@@ -15,9 +15,9 @@ import MAT from '../assets/materialui.png';
 const Skills = () => {
     
   return (
-    <div name='skills' className='bg-pink-100 text-gray-900 text-sm w-full h-screen px-[80px] py-[20px]'>
+    <div name='skills' className='bg-pink-100 text-gray-900 text-sm w-full h-800 sm:h-screen px-[20px] sm:px-[80px] py-[20px]'>
     
-    <div className='max-w-[1000px]  mx-auto py-4 flex flex-col justify-center w-4/5 h-full'>
+    <div className='max-w-[1200px]  sm:mx-auto py-4 flex flex-col justify-center w-5/5 sm:w-4/5 h-full'>
         <p className=' mb-20 text-5xl font-bold w-[120px] border-b-4 border-[#DC143C] text-gray-900'>Skills</p>
         <div className=' w-full grid grid-cols-3 place-content-center sm:grid-cols-6 gap-6 text-center'>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
