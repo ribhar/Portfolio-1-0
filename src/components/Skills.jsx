@@ -15,11 +15,11 @@ import MAT from '../assets/materialui.png';
 const Skills = () => {
     
   return (
-    <div name='skills' className='bg-pink-100 text-gray-900 text-sm w-full h-800 sm:h-screen px-[20px] sm:px-[80px] py-[20px]'>
+    <div name='skills' className='bg-pink-100 text-gray-900 text-sm w-full h-800 sm:h-[800px] md:h-[600px] px-[20px] sm:px-[40px] md:px-[60px] py-[20px]'>
     
     <div className='max-w-[1200px]  sm:mx-auto py-4 flex flex-col justify-center w-5/5 sm:w-4/5 h-full'>
         <p className=' mb-20 text-5xl font-bold w-[120px] border-b-4 border-[#DC143C] text-gray-900'>Skills</p>
-        <div className=' w-full grid grid-cols-3 place-content-center sm:grid-cols-6 gap-6 text-center'>
+        <div className=' w-full grid grid-cols-3 place-content-center sm:grid-cols-4 md:grid-cols-6 gap-4 sm:gap-4 md:gap-6 text-center'>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto my-5'  src={HTML} alt="HTML icon" />
                 <p className='my-4'>HTML</p>

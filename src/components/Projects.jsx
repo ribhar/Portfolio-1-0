@@ -9,13 +9,13 @@ import {FaGithub,FaEye} from 'react-icons/fa'
 const Projects = () => {
   
   return (
-    <div name="projects" className="w-full h-[2200px] md:h-[1100px] bg-[#fff] text-gray-300 ">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-4/5 h-full">
+    <div name="projects" className="w-full h-[2400px] sm:h-[1500px] md:h-[1100px] bg-[#fff] text-gray-300 ">
+      <div className=" sm:max-w-[720px] md:max-w-[1000px] lg:max-w-[1250px] mx-auto p-4 flex flex-col justify-center w-4/5 h-full">
         
           <p className= 'mb-20 text-5xl font-bold w-[185px] border-b-4 border-[#DC143C] text-gray-900'>
             Projects
           </p>
-          <div className=' w-full grid grid-cols-1 place-content-center sm:grid-cols-3 gap-6 '>
+          <div className=' w-full grid grid-cols-1 place-content-center sm:grid-cols-2 md:grid-cols-3 gap-6 '>
             <div className=' bg-pink-100 rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                 <img className=' rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto'  src={bath} alt="Bath & Body Works image" />
                 <div className="px-3 my-4">
