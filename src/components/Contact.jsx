@@ -12,7 +12,7 @@ const Contact = () => {
           </div>
           <input className=' rounded-lg bg-[#ccd6f6] p-2 text-gray-900' type="text" placeholder='Name' name='name'/>
           <input className='rounded-lg my-4 p-2 bg-[#ccd6f6] text-gray-900' type="email" placeholder='Email' name='email'/>
-          <input className='rounded-lg my-4 p-2 bg-[#ccd6f6] text-gray-900' type="tel" placeholder='Phone' name='phone'/>
+          <input className='rounded-lg mb-4 p-2 bg-[#ccd6f6] text-gray-900' type="tel" placeholder='Phone' name='phone'/>
           <textarea className='rounded-lg bg-[#ccd6f6] p-2 text-gray-900' name="message" rows="10" placeholder='Message'></textarea>
           <button className='rounded-lg  text-white border-2 bg-[#DC143C] hover:[#DC143C] hover:bg-[#fc5979] hover:shadow-md shadow-gray-400  px-4 py-3 my-8 mx-auto flex items-center'>Submit</button>
       </form>
