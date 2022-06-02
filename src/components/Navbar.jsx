@@ -45,6 +45,10 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li><a href="https://drive.google.com/file/d/13JNYRxWzKnNcH8b9AxPw8Uaucc0jQY1T/view?usp=sharing" target='_blank'>
+            Resume
+            </a>
+        </li>
         
       </ul> 
 
