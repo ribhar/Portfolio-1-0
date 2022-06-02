@@ -7,24 +7,28 @@ import { Link } from "react-scroll";
 const Home = () => {
   
   return (
-    <div name="home" className="w-full h-[800px] sm:h-screen bg-pink-100">
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col pt-[140px] sm:pt-0 justify-start sm:justify-center h-full ">
-        <p className='text-2xl font-bold'>Hi, my name is</p>
-        <h1 className='text-4xl mb-4 sm:text-7xl font-bold text-[#DC143C]'>Ritik Bhardwaj</h1>
-        <h2 className='text-4xl mb-2 sm:text-4xl font-bold text-gray-500'>A Full-Stack Web Developer.</h2>
-        <p className='text-gray-500 py-4 max-w-[700px]'>
-          A full-stack web-developer with a specialization in MERN
-          stack. Excellent teamwork, self-motivated and curious, with a keen
-          interest in building user-centric products.{" "}
-        </p>
+    //lg:mx-[40px] w-full h-full max-w-[1100px] flex flex-col lg:flex-row pt-[140px] justify-start lg:justify-around  
+    <div name="home" className="w-full h-[850px] sm:h-[850px] lg:h-[600px] bg-pink-100 mx-auto">
+      <div className="px-[20px] flex flex-col sm:flex-col md:flex-col lg:flex-row pt-[130px] md:pt-[150px] lg:justify-center">
+        <div>
+          <p className='text-2xl font-bold'>Hi, my name is</p>
+          <h1 className='text-6xl md:text-7xl font-bold text-[#DC143C]'>Ritik Bhardwaj</h1>
+          <h2 className='text-3xl md:text-4xl font-bold text-gray-500'>A Full-Stack Web Developer.</h2>
+          <p className='text-gray-500 py-4 md:max-w-[750px] lg:max-w-[700px]'>
+            A full-stack web-developer with a specialization in MERN
+            stack. Excellent teamwork, self-motivated and curious, with a keen
+            interest in building user-centric products.
+          </p>
+        </div>
         
-        <div className='hidden lg:flex absolute right-[55px]'>
-            <img src={Logo1} alt="" style={{width:"300px",borderRadius:"50%"}} />
+        
+        <div className='mt-[40px] lg:mt-0'>
+            <img src={Logo1} alt="" className="w-[300px] rounde-100"  />
         </div>
       </div>
-      <div className='flex sm:hidden absolute right-[55px] bottom-[-50px]'>
+      {/* <div className='flex lg:hidden absolute right-[55px] bottom-[-50px]'>
             <img src={Logo1} alt="" style={{width:"300px",borderRadius:"50%"}} />
-      </div>
+      </div> */}
     </div>
   );
 };

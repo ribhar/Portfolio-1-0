@@ -10,8 +10,9 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="z-10 fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#fff] text-gray-900">
-      <div>
+    <div className=" w-full  h-[80px] px-4 py-[20px] bg-[#fff] ">
+      <div className="max-w-[1350px]  mx-auto flex justify-between items-center text-gray-900">
+      <div className="self-center">
         <img
           src={Logo}
           alt="Logo Image"
@@ -122,6 +123,8 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      </div>
+      
     </div>
   );
 };
