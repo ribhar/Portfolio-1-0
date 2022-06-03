@@ -4,13 +4,14 @@ import link from '../assets/linkedin.PNG';
 import pharm from '../assets/pharmeasy.png';
 import yt from '../assets/youtube.png';
 import fm from '../assets/foodmood.PNG';
+import ri from '../assets/land.png';
 import {FaGithub,FaEye} from 'react-icons/fa'
 
 const Projects = () => {
   
   return (
-    <div name="projects" className="w-full h-[2400px] sm:h-[1500px] md:h-[1100px] bg-[#fff] text-gray-300 px-[20px]">
-      <div className=" mx-auto sm:max-w-[720px] md:max-w-[1000px] lg:max-w-[1250px] p-4 flex flex-col lg:justify-center w-5/5 h-full">
+    <div name="projects" className="w-full h-[3120px] sm:h-[1500px] md:h-[1100px] bg-[#fff] text-gray-300 px-[20px]">
+      <div className=" mx-auto place-content-center sm:max-w-[720px] md:max-w-[1000px] lg:max-w-[1250px] p-4 flex flex-col lg:justify-center w-5/5 h-full">
         
           <p className= 'mb-20 text-5xl font-bold w-[185px] border-b-4 border-[#DC143C] text-gray-900'>
             Projects
@@ -73,6 +74,18 @@ const Projects = () => {
                   <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
                     <a href="https://foodymood.netlify.app/" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Live</span><FaEye className="mt-[6px] mb-[6px] "/></button></a>
                     <a href="https://github.com/ribhar/foodyMood" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Repo</span><FaGithub className="mt-[6px] mb-[6px] "/></button></a>
+                  </div>
+                </div>
+            </div>
+            <div className='bg-pink-100 rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
+                <img className=' rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto'  src={ri} alt="RiCinemo image" />
+                <div className="px-3 my-4">
+                  <p className='font-bold  text-left text-gray-600'>RiCinemo</p>
+                  <p className='my-2 text-sm text-left  text-gray-500'>Ricinemo is a movie explorer website, where one can get most info on their favorite movies and the trending movie.</p>
+                  <p className='my-2 text-sm text-left   text-gray-500 inline'><span className=' text-sm text-left  mr-2 font-bold text-[#DC143C] '>Tech Stack:</span> HTML | CSS | JS | Rest API</p>
+                  <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
+                    <a href="https://ricinemo.netlify.app/" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Live</span><FaEye className="mt-[6px] mb-[6px] "/></button></a>
+                    <a href="https://github.com/ribhar/RiCinemo" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Repo</span><FaGithub className="mt-[6px] mb-[6px] "/></button></a>
                   </div>
                 </div>
             </div>
