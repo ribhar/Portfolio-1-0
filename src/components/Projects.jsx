@@ -21,7 +21,7 @@ const Projects = () => {
                 <img className=' rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto'  src={bath} alt="Bath & Body Works image" />
                 <div className="px-3 my-4">
                   <p className='font-bold  text-left text-gray-600'>Bath & Body Works Clone</p>
-                  <p className='my-2 text-sm text-left text-gray-500'>Bath & Body Works, LLC. is an American retail store chain that sells soaps, lotions, fragrances, and candles.</p>
+                  <p className='my-2 text-sm text-left text-gray-500'>Bath & Body Works, LLC. which sells soaps, lotions, fragrances, and candles. In 1997, it was the largest bath shop chain in the United States.</p>
                   <p className='my-2 text-sm text-lef text-gray-500 inline'><span className=' text-sm text-left  mr-2 font-bold text-[#DC143C] '>Tech Stack:</span>React | Tailwind | Rest API </p>
                   <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
                     <a href="https://bathandbodyworksclone.netlify.app/" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Live</span><FaEye className="mt-[6px] mb-[6px] "/></button></a>
@@ -33,7 +33,7 @@ const Projects = () => {
                 <img className=' rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto'  src={link} alt="LinkedIn Learning image" />
                 <div className="px-3 my-4">
                   <p className=' font-bold  text-left text-gray-600'>LinkedIn Learning Clone</p>
-                  <p className='my-2 text-sm text-left  text-gray-500'>LinkedIn Learning provides video courses taught by industry experts in software, creative, and business skills.</p>
+                  <p className='my-2 text-sm text-left  text-gray-500'>LinkedIn Learning is an American online learning provider. It provides video courses taught by industry experts in software, creative, and business skills.</p>
                   <p className='my-2 text-sm text-left   text-gray-500 inline'><span className=' text-sm text-left  mr-2 font-bold text-[#DC143C] '>Tech Stack:</span>HTML | CSS | JS | Modules</p>
                   <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
                     <a href="https://projectlynda.netlify.app/" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Live</span><FaEye className="mt-[6px] mb-[6px] "/></button></a>
