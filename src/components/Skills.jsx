@@ -11,6 +11,7 @@ import NODE from '../assets/node.png';
 import TAILWIND from '../assets/tailwind.png';
 import REDUX from '../assets/redux.png';
 import MAT from '../assets/materialui.png';
+import FIRE from '../assets/Firebase.png';
 
 const Skills = () => {
     
@@ -69,8 +70,8 @@ const Skills = () => {
                 <p className='my-4'>Node.js</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto my-5'  src={NODE} alt="Node.js icon" />
-                <p className='my-4'>Node.js</p>
+                <img className='w-20 mx-auto my-5'  src={FIRE} alt="Node.js icon" />
+                <p className='my-4'>Firebase</p>
             </div>
         </div>
     </div>
