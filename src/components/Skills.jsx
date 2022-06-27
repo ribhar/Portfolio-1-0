@@ -14,6 +14,7 @@ import MAT from '../assets/materialui.png';
 import FIRE from '../assets/firebase.png';
 import BOOT from '../assets/bootstrap.png';
 import CY from '../assets/cypress.svg';
+import JEST from '../assets/jest.svg';
 
 const Skills = () => {
     
@@ -82,6 +83,10 @@ const Skills = () => {
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto my-5'  src={CY} alt="Node.js icon" />
                 <p className='my-4'>Cypress</p>
+            </div>
+            <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto my-5'  src={JEST} alt="Node.js icon" />
+                <p className='my-4'>Jest</p>
             </div>
         </div>
     </div>
