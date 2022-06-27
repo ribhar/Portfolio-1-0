@@ -13,6 +13,7 @@ import REDUX from '../assets/redux.png';
 import MAT from '../assets/materialui.png';
 import FIRE from '../assets/firebase.png';
 import BOOT from '../assets/bootstrap.png';
+import CY from '../assets/cypress.svg';
 
 const Skills = () => {
     
