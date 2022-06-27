@@ -11,7 +11,7 @@ import NODE from '../assets/node.png';
 import TAILWIND from '../assets/tailwind.png';
 import REDUX from '../assets/redux.png';
 import MAT from '../assets/materialui.png';
-import FIRE from '../assets/Firebase.png';
+import FIRE from '../assets/firebase.png';
 
 const Skills = () => {
     
