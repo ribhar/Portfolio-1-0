@@ -16,6 +16,7 @@ import BOOT from '../assets/bootstrap.png';
 import CY from '../assets/cypress.svg';
 import JEST from '../assets/jest.svg';
 import PY from '../assets/python.png';
+import MG from '../assets/mongoose.png';
 
 const Skills = () => {
     
@@ -34,12 +35,20 @@ const Skills = () => {
                 <p className='my-4'>CSS</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto my-5'  src={BOOT} alt="Node.js icon" />
+                <p className='my-4'>Bootstrap</p>
+            </div>
+            <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                 <img className='w-20 mt-8 mb-10 h-30 mx-auto my-5'  src={TAILWIND} alt="TailwindCSS icon" />
                 <p className='my-4'>Tailwind</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto my-5'  src={MAT} alt="Material UI icon" />
                 <p className='my-4'>Material UI</p>
+            </div>
+            <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto my-5'  src={PY} alt="Node.js icon" />
+                <p className='my-4'>Python</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto my-5'  src={JS} alt="JavaScript icon" />
@@ -77,10 +86,7 @@ const Skills = () => {
                 <img className='w-20 mx-auto my-5'  src={FIRE} alt="Node.js icon" />
                 <p className='my-4'>Firebase</p>
             </div>
-            <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto my-5'  src={BOOT} alt="Node.js icon" />
-                <p className='my-4'>Bootstrap</p>
-            </div>
+            
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto my-5'  src={CY} alt="Node.js icon" />
                 <p className='my-4'>Cypress</p>
@@ -89,9 +95,10 @@ const Skills = () => {
                 <img className='w-20 mx-auto my-5'  src={JEST} alt="Node.js icon" />
                 <p className='my-4'>Jest</p>
             </div>
+            
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto my-5'  src={PY} alt="Node.js icon" />
-                <p className='my-4'>Python</p>
+                <img className='w-20 mx-auto my-5'  src={MG} alt="Node.js icon" />
+                <p className='my-4'>Mongoose</p>
             </div>
         </div>
     </div>
