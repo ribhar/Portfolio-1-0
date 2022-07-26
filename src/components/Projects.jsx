@@ -1,4 +1,5 @@
 import React from "react";
+import sc from '../assets/sugarcosmetics.PNG';
 import bath from '../assets/bath.png';
 import kim from '../assets/kim.PNG';
 import link from '../assets/linkedin.PNG';
@@ -18,6 +19,18 @@ const Projects = () => {
             Projects
           </p>
           <div className=' w-full grid grid-cols-1 place-content-center sm:grid-cols-2 md:grid-cols-3 gap-6 '>
+          <div className=' bg-pink-100 rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
+                <img className=' rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto'  src={kim} alt="kimaye image" />
+                <div className="px-3 my-4">
+                  <p className='font-bold  text-left text-gray-600'>Sugar Cosmetics Clone</p>
+                  <p className='my-2 text-sm text-left text-gray-500'>SUGAR Cosmetics is a cruelty-free makeup brand that is high on style and higher on performance.</p>
+                  <p className='my-2 text-sm text-lef text-gray-500 inline'><span className=' text-sm text-left  mr-2 font-bold text-[#DC143C] '>Tech Stack:</span> MongoDB | Express.js | React | Node.js </p>
+                  <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
+                    <a href="https://sugar-cosmetics.vercel.app/" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Live</span><FaEye className="mt-[6px] mb-[6px] "/></button></a>
+                    <a href="https://github.com/DhimanAnkush/tart-clover-1298" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Repo</span><FaGithub className="mt-[6px] mb-[6px] "/></button></a>
+                  </div>
+                </div>
+            </div>
             <div className=' bg-pink-100 rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                 <img className=' rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto'  src={kim} alt="kimaye image" />
                 <div className="px-3 my-4">
