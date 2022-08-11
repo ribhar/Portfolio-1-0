@@ -17,10 +17,10 @@ const About = () => {
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 mt-[50px]'>
                 <div className='sm:text-right text-4xl font-bold text-gray-500'>
-                    <p>Hi, I am Ritik, and I am glad to welcome you to my profile.</p>
+                    <p>Hi, I am Ritik, and I am glad to welcome you all to my profile.</p>
                 </div>
                 <div>
-                    <p className='text-gray-500'>I am passoniate about building excellent software that imporess the lives of those around me. I specialize in creating software for clients ranging from individuals and small-business all the way to large enterprise corporation. What would you do if you had a software expert available at your fingerpoints.</p>
+                    <p className='text-gray-500'>I am passoniate about building excellent software that imporess the lifes of those around me. I specialize in creating software for clients ranging from individuals and small-business all the way to large enterprise corporation. What would you do if you had a software expert available at your fingerpoints.</p>
                 </div>
             </div>
         </div>
