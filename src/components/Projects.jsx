@@ -13,7 +13,7 @@ import {FaGithub,FaEye} from 'react-icons/fa'
 const Projects = () => {
   
   return (
-    <div name="projects" className="w-full h-[3650px] sm:h-[1900px] md:h-[1500px] bg-[#fff] text-gray-300 px-[20px]">
+    <div name="projects" className="w-full h-[4650px] sm:h-[2300px] md:h-[1500px] bg-[#fff] text-gray-300 px-[20px]">
       <div className=" mx-auto place-content-center sm:max-w-[720px] md:max-w-[1000px] lg:max-w-[1250px] p-4 flex flex-col lg:justify-center w-5/5 h-full">
         
           <p className= 'mb-20 text-5xl font-bold w-[185px] border-b-4 border-[#DC143C] text-gray-900'>
