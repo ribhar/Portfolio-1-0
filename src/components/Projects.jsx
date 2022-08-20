@@ -48,7 +48,7 @@ const Projects = () => {
                 <img className=' rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto'  src={kim} alt="kimaye image" />
                 <div className="px-3 my-4">
                   <p className='font-bold  text-left text-gray-600'>Kimaye Clone</p>
-                  <p className='my-2 text-sm text-left text-gray-500'>Kimaye. Brand. Growers of India's finest fruits, we want to make eating fruits a worry-free and delightful experience for you.</p>
+                  <p className='my-2 text-sm text-left text-gray-500'>Kimaye. Brand. Growers of India's finest fruits, we want to make eating fruits delightful experience for you.</p>
                   <p className='my-2 text-sm text-lef text-gray-500 inline'><span className=' text-sm text-left  mr-2 font-bold text-[#DC143C] '>Tech Stack:</span> MongoDB | Express.js | React | Node.js </p>
                   <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
                     <a href="https://mykimaye.netlify.app/" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Live</span><FaEye className="mt-[6px] mb-[6px] "/></button></a>
