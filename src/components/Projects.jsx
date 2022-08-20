@@ -7,7 +7,7 @@ import pharm from '../assets/pharmeasy.png';
 import yt from '../assets/youtube.png';
 import fm from '../assets/foodmood.PNG';
 import ri from '../assets/land.png';
-import tr from '../assets/trinity.PNG';
+import sl from '../assets/streamline.PNG';
 import {FaGithub,FaEye} from 'react-icons/fa'
 
 const Projects = () => {
@@ -21,14 +21,14 @@ const Projects = () => {
           </p>
           <div className=' w-full grid grid-cols-1 place-content-center sm:grid-cols-2 md:grid-cols-3 gap-6 '>
             <div className=' bg-pink-100 rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
-                <img className=' rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto'  src={tr} alt="Sugar Cosmetics image" />
+                <img className=' rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto'  src={sl} alt="Sugar Cosmetics image" />
                 <div className="px-3 my-4">
-                  <p className='font-bold  text-left text-gray-600'>Trinity</p>
-                  <p className='my-2 text-sm text-left text-gray-500'>Trinity chat application where proffestionals can chat and assign tasks all in the real time.</p>
+                  <p className='font-bold  text-left text-gray-600'>Streamline</p>
+                  <p className='my-2 text-sm text-left text-gray-500'>Streamline chat application where proffestionals can chat and assign tasks all in the real time.</p>
                   <p className='my-2 text-sm text-lef text-gray-500 inline'><span className=' text-sm text-left  mr-2 font-bold text-[#DC143C] '>Tech Stack:</span> MongoDB | Express.js | React | Node.js </p>
                   <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
-                    <a href="https://chatwithtrinity.netlify.app/" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Live</span><FaEye className="mt-[6px] mb-[6px] "/></button></a>
-                    <a href="https://github.com/ribhar/trinityApp" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Repo</span><FaGithub className="mt-[6px] mb-[6px] "/></button></a>
+                    <a href="https://streamline-eight.vercel.app/" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Live</span><FaEye className="mt-[6px] mb-[6px] "/></button></a>
+                    <a href="https://github.com/ribhar/Streamline" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Repo</span><FaGithub className="mt-[6px] mb-[6px] "/></button></a>
                   </div>
                 </div>
             </div>
