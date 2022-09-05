@@ -112,7 +112,7 @@ const Projects = () => {
                   <p className='my-2 text-sm text-left   text-gray-500 inline'><span className=' text-sm text-left  mr-2 font-bold text-[#DC143C] '>Tech Stack:</span> HTML | CSS | JavaScript | Rest API</p>
                   <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
                     <a href="https://foodymood.netlify.app/" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Live</span><FaEye className="mt-[6px] mb-[6px] "/></button></a>
-                    <a href="https://github.com/ribhar/foodyMood" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Repo</span><FaGithub className="mt-[6px] mb-[6px] "/></button></a>
+                    <a href="https://github.com/ribhar/FoodyMood" target="_blank"><button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#fc5979] rounded-xl bg-[#DC143C] "><span className="text-white text-lg ">Repo</span><FaGithub className="mt-[6px] mb-[6px] "/></button></a>
                   </div>
                 </div>
             </div>
