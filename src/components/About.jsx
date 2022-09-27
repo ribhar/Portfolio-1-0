@@ -20,7 +20,7 @@ const About = () => {
                     <p>Hi, I am Ritik, and I am glad to welcome you all to my profile.</p>
                 </div>
                 <div>
-                    <p className='text-gray-500'>I am passoniate about building excellent software that imporess the lifes of those around me. I specialize in creating software for clients ranging from individuals and small-business all the way to large enterprise corporation. What would you do if you had a software expert available at your fingerpoints.</p>
+                    <p className='text-gray-500'>I am passoniate about building excellent software that impress the lifes of those around me. I specialize in creating software for clients ranging from individuals and small-business all the way to large enterprise corporation. What would you do if you had a software expert available at your fingertips.</p>
                 </div>
             </div>
         </div>
