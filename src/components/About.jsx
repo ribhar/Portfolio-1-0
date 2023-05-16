@@ -17,10 +17,19 @@ const About = () => {
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 mt-[50px]'>
                 <div className='sm:text-right text-4xl font-bold text-gray-500'>
-                    <p>Hi, I am Ritik, and I am glad to welcome you all to my profile.</p>
+                    <p>Greetings! I'm Ritik, a software engineer, and I'm delighted to extend a warm welcome to all of you visiting my portfolio.</p>
                 </div>
                 <div>
-                    <p className='text-gray-500'>I am passoniate about building excellent software that impress the lifes of those around me. I specialize in creating software for clients ranging from individuals and small-business all the way to large enterprise corporation. What would you do if you had a software expert available at your fingertips.</p>
+                    <p className='text-gray-500'>
+I am a skilled software developer with 2.8 years of experience specializing in the MERN stack. I have a strong command over MySQL, PostgreSQL, and MongoDB for efficient data storage and retrieval. My proficiency extends to Node.js and Express for server-side development, as well as React and Redux for building interactive and responsive user interfaces.
+
+In addition to my expertise in the MERN stack, I am well-versed in TypeScript, JavaScript, Python, and C++, enabling me to develop robust and scalable applications across various platforms. I have a solid understanding of CI/CD practices and utilize Git and GitHub for efficient version control and collaborative development.
+
+As a continuous learner, I am currently pursuing an MCA in AI & ML to enhance my knowledge in artificial intelligence and machine learning. This academic pursuit enables me to bring a data-driven approach and innovative problem-solving techniques to my software development projects.
+
+With a strong foundation in the MERN stack, proficiency in multiple programming languages, and a passion for leveraging AI and ML technologies, I am confident in my ability to contribute to cutting-edge software solutions. I am driven by a desire to deliver high-quality code, adhere to best practices, and collaborate effectively with cross-functional teams.
+
+I am eager to bring my skills, experience, and enthusiasm to a dynamic organization that values innovation and fosters professional growth.</p>
                 </div>
             </div>
         </div>
