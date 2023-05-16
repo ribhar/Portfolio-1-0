@@ -17,7 +17,7 @@ const About = () => {
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 mt-[50px]'>
                 <div className='sm:text-right text-4xl font-bold text-gray-500'>
-                    <p>Greetings! I'm Ritik, a software engineer, and I'm delighted to extend a warm welcome to all of you visiting my portfolio.</p>
+                    <p>Greetings! I'm Ritik, a software engineer, welcoming you to my portfolio.</p>
                 </div>
                 <div>
                     <p className='text-gray-500'>Experienced software developer specializing in backend development with a strong focus on the MERN stack. Equipped with 3 years of industry experience, including database management and server-side development. Currently pursuing an MCA in AI & ML to apply data-driven approaches to software development projects. Committed to delivering high-quality code, following best practices, and collaborating effectively within cross-functional teams. Seeking opportunities to contribute to innovative software solutions and advance professional growth.</p>
