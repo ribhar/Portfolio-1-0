@@ -15,9 +15,8 @@ const Home = () => {
           <h1 className='text-6xl md:text-7xl font-bold text-[#DC143C]'>Ritik Bhardwaj</h1>
           <h2 className='text-3xl md:text-4xl font-bold text-gray-500'>A Full-Stack Web Developer.</h2>
           <p className='text-gray-500 py-4 md:max-w-[750px] lg:max-w-[700px]'>
-            A full-stack web-developer with a specialization in MERN
-            stack. Excellent teamwork, self-motivated and curious, with a keen
-            interest in building user-centric products.
+          
+Experienced software developer in the MERN stack, adept in database management and server-side development. Committed to delivering high-quality code and seeking opportunities to contribute to innovative software solutions.
           </p>
         </div>
         
