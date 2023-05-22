@@ -8,7 +8,7 @@ const Home = () => {
   
   return (
     //lg:mx-[40px] w-full h-full max-w-[1100px] flex flex-col lg:flex-row pt-[140px] justify-start lg:justify-around  
-    <div name="home" className="w-full h-[850px] sm:h-[850px] lg:h-[600px] bg-pink-100 mx-auto">
+    <div name="home" className="w-full h-[980px] sm:h-[850px] lg:h-[600px] bg-pink-100 mx-auto">
       <div className="px-[20px] flex flex-col sm:flex-col md:flex-col lg:flex-row pt-[130px] md:pt-[150px] lg:justify-center">
         <div>
           <p className='text-2xl font-bold'>Hi, my name is</p>
