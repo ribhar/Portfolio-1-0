@@ -20,7 +20,7 @@ const About = () => {
                     <p>Greetings! I'm Ritik, a software engineer, welcoming you to my portfolio.</p>
                 </div>
                 <div>
-                    <p className='text-gray-500'>Experienced software development engineer with a strong background in full-stack web development, 2160+ hours of hands-on experience, and 1+ year of professional experience. Pursuing MCA in Artificial Intelligence and Machine Learning. Skilled in developing robust web applications, collaborating effectively, and staying updated with emerging technologies. Seeking challenging opportunities to contribute to impactful projects and exceed client expectations.</p>
+                    <p className='text-gray-500'>Experienced software development engineer with a strong background in full-stack web development, 2160+ hours of hands-on experience, and 2+ year of professional experience. Pursuing MCA in Artificial Intelligence and Machine Learning. Skilled in developing robust web applications, collaborating effectively, and staying updated with emerging technologies. Seeking challenging opportunities to contribute to impactful projects and exceed client expectations.</p>
                 </div>
             </div>
         </div>
