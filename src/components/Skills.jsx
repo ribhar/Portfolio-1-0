@@ -17,6 +17,11 @@ import CY from '../assets/cypress.svg';
 import JEST from '../assets/jest.svg';
 import PY from '../assets/python.png';
 import MG from '../assets/mongoose.png';
+import CPP from '../assets/icons8-c-480.png';
+import LI from '../assets/icons8-linux-96.png';
+import DO from '../assets/icons8-docker-480.png';
+import PG from '../assets/icons8-postgresql-480.png';
+import MY from '../assets/icons8-mysql-480.png';
 
 const Skills = () => {
     
@@ -47,16 +52,16 @@ const Skills = () => {
                 <p className='my-4'>Python</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto my-5'  src={GIT} alt="Git icon" />
-                <p className='my-4'>Git</p>
+                <img className='w-20 mx-auto my-5'  src={CPP} alt="Cpp icon" />
+                <p className='my-4'>C++</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto my-5'  src={MONGO} alt="MongoDB icon" />
                 <p className='my-4'>MongoDB</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto mt-[45px] mb-[42px] my-5'  src={MG} alt="Node.js icon" />
-                <p className='my-4'>Mongoose</p>
+                <img className='w-20 mx-auto mt-[45px] mb-[42px] my-5'  src={PG} alt="PostgreSQL icon" />
+                <p className='my-4'>PostgreSQL</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                 <img className='w-20 mt-8 mb-10 h-30 mx-auto my-5'  src={EX} alt="Express.js icon" />
@@ -75,6 +80,14 @@ const Skills = () => {
                 <p className='my-4'>Node.js</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto my-5'  src={MY} alt="MySQL icon" />
+                <p className='my-4'>MySQL</p>
+            </div>
+            <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto my-5'  src={DO} alt="Docker icon" />
+                <p className='my-4'>Docker</p>
+            </div>
+            <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto my-5'  src={CY} alt="Node.js icon" />
                 <p className='my-4'>Cypress</p>
             </div>
@@ -83,20 +96,12 @@ const Skills = () => {
                 <p className='my-4'>Jest</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto my-5'  src={PM} alt="Node.js icon" />
-                <p className='my-4'>Postman</p>
+                <img className='w-20 mx-auto my-5'  src={LI} alt="Linux icon" />
+                <p className='my-4'>Linux</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto my-5'  src={BOOT} alt="Node.js icon" />
-                <p className='my-4'>Bootstrap</p>
-            </div>
-            <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
-                <img className='w-20 mt-8 mb-10 h-30 mx-auto my-5'  src={TAILWIND} alt="TailwindCSS icon" />
-                <p className='my-4'>Tailwind</p>
-            </div>
-            <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto my-5'  src={MAT} alt="Material UI icon" />
-                <p className='my-4'>Material UI</p>
+                <img className='w-20 mx-auto my-5'  src={GIT} alt="Git icon" />
+                <p className='my-4'>Git</p>
             </div>
         </div>
     </div>
