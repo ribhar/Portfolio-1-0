@@ -60,7 +60,7 @@ const Skills = () => {
                 <p className='my-4'>MongoDB</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto mt-[45px] mb-[42px] my-5'  src={PG} alt="PostgreSQL icon" />
+                <img className='w-20 mx-auto my-5'  src={PG} alt="PostgreSQL icon" />
                 <p className='my-4'>PostgreSQL</p>
             </div>
             <div className='bg-[#fff] font-bold rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500'>
