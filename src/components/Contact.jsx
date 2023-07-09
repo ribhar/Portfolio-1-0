@@ -11,7 +11,7 @@ const Contact = () => {
       <div method="POST" action="https://getform.io/f/d85f4880-90cb-48bb-afe4-99ffd4fc18a7" className='flex flex-col max-w-[600px] w-full '>
           <div className='pb-4'>
               <p className='text-4xl font-bold inline border-b-4 border-[#DC143C] text-gray-900 '>Contact</p>
-              <p className='text-gray-500 mt-[50px] pb-4'>Connect me via email - <b>varribhar@gmail.com</b>, or ping me on options below.</p>
+              <p className='text-gray-500 mt-[50px] pb-4'>Connect me via email - <b>ribharscode@gmail.com</b>, or ping me on options below.</p>
               <div className='flex flex-row gap-[10px]'>
                 <a href="https://www.linkedin.com/in/ribhar/" target='_blank'> <button className=' p-2 rounded-full text-white bg-[#DC143C] hover:bg-[#fc5979] hover:shadow-md shadow-gray-400'><FaLinkedin size={20}/></button></a>
                 <a href="https://github.com/ribhar" target='_blank'> <button className=' p-2 rounded-full text-white bg-[#DC143C] hover:bg-[#fc5979] hover:shadow-md shadow-gray-400'><FaGithub size={20}/></button></a>
