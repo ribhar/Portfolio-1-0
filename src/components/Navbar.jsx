@@ -10,7 +10,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className=" w-full  h-[80px] px-4 py-[20px] bg-[#fff] ">
+    <div className=" w-full  h-[100px] px-4 py-[20px] bg-[#fff] ">
       <div className="max-w-[1350px]  mx-auto flex justify-between items-center text-gray-900">
       <div className="self-center">
         <img
